@@ -20,7 +20,7 @@ class QuartsToGallonsWithExceptionHandling
          catch(Exception e)
          {
             input.nextLine();
-            System.out.println("Invalid data rntry");
+            System.out.println("Invalid data entry");
          }
       }
       gallonsNeeded = quartsNeeded / QUARTS_IN_GALLON;
